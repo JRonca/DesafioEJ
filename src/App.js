@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import GlobalStyle from './styles/global'
-import {Title, Form, Table,Description} from './styles/styles'
+import {Title, Form, Table,Description, Link} from './styles/styles'
 
 function App() {
   //variaveis para a entrada
@@ -30,12 +30,16 @@ function App() {
   return (
     <>
       <Title>Desafio EJ</Title>
-      <Description>Escreva 4 valores inteiros A, B, C e D. A seguir,
+      <Description>
+        <p>Escreva 4 valores inteiros A, B, C e D. A seguir,
        se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D,
        ambos, forem positivos e se a variável A for par escreveremos a mensagem
        "Valores aceitos", senão escreveremos "Valores nao aceitos".<br/>
-       Os Resultados irão ficar registrados na tabela!
+       Os Resultados irão ficar registrados na tabela!<br/></p>
        </Description>
+       <Description>
+         <Link href="https://github.com/JRonca/JRonca.github.io">Repositório do projeto</Link>
+      </Description>
        {
        //inicio do formulário que chamara a função
        }

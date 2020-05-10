@@ -7,7 +7,23 @@ export const Title = styled.h1`
   text-align:center;
 	max-width:450px;
 `;
+export const Link=styled.a`
+	padding:10px;
+		margin-top:50px;
+		height:70px;
+		background:#04D361;
+		text-decoration:none;
+		border-radius:5px;
+    border: 0;
+		color:#FFF;
+		font-weight:bold;
+		transition: background-color 0.2s;
+		&:hover{
+			background:${shade(0.2,'#04D361')};
+		}
+`;
 export const Description=styled.p`
+padding:10px;
 	font-size: 20px;
 	color: #3A3A3A;
   margin:auto;
