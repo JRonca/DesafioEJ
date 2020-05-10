@@ -7,7 +7,13 @@ export const Title = styled.h1`
   text-align:center;
 	max-width:450px;
 `;
-
+export const Description=styled.p`
+	font-size: 20px;
+	color: #3A3A3A;
+  margin:auto;
+  text-align:center;
+	max-width:700px;
+`;
 export const Form = styled.form`
   margin:5px;
   margin-top:40px;
