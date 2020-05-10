@@ -38,7 +38,7 @@ function App() {
        Os Resultados irão ficar registrados na tabela!<br/></p>
        </Description>
        <Description>
-         <Link href="https://github.com/JRonca/JRonca.github.io">Repositório do projeto</Link>
+         <Link href="https://github.com/JRonca/DesafioEJ">Repositório do projeto</Link>
       </Description>
        {
        //inicio do formulário que chamara a função
